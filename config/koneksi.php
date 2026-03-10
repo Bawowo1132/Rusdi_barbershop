@@ -1,5 +1,12 @@
 <?php
 
+/*
+====================================================
+File    : koneksi.php
+Fungsi  : Menghubungkan program dengan database MySQL
+====================================================
+*/
+
 $host = "localhost";
 $user = "root";
 $password = "";

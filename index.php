@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="id">
+<?php
+/*
+====================================================
+Halaman : Index / Halaman Utama
+Fungsi  : Menampilkan halaman utama website
+Author  : I Made Budiyasa
+====================================================
+*/
+?>
 
 <head>
 <meta charset="UTF-8">
 <title>Rusdi Barbershop Ngawi</title>
 <link rel="stylesheet" href="../assets/style.css">
+<!-- Menggunakan bootstrap sebagai library eksternal -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
@@ -12,6 +22,7 @@
 <body>
 
 <header>
+    <!-- Menu utama website -->
 <h1>Selamat Datang di Web Rusdi Barbershop</h1>
 
 <nav>
