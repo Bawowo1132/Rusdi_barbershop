@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+}
+
+/* HEADER */
+header{
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* NAVBAR */
+nav{
+    background: #333;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+/* CONTAINER */
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* FORM BOX */
+.form-box{
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.form-box h2{
+    text-align: center;
+}
+
+/* INPUT */
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* BUTTON */
+button{
+    background: #222;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover{
+    background: orange;
+}
+
+/* TABLE */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+th{
+    background: #222;
+    color: white;
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background: #f2f2f2;
+}
+
+/* LINK AKSI */
+.action a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+.action a:hover{
+    color: darkred;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    background: #222;
+    color: white;
+}
