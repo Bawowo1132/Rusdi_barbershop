@@ -13,4 +13,19 @@ mysqli_query($conn,$query);
 
 header("location:tampil.php");
 
+include "../app/Pelanggan.php";
+
+use App\Pelanggan;
+
+$pelanggan = new Pelanggan($conn);
+
+$data = [
+    "nama" => $_POST['nama'],
+    "model_rambut" => $_POST['model_rambut'],
+    "harga" => $_POST['harga']
+];
+
+$pelanggan->simpan($data);
+
+header("location:tampil.php");
 ?>

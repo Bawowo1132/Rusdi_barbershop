@@ -1,5 +1,12 @@
 <?php
 include "../config/koneksi.php";
+include "../app/Pelanggan.php";
+
+use App\Pelanggan;
+
+$pelanggan = new Pelanggan($conn);
+
+$data = $pelanggan->tampil();
 ?>
 
 <!DOCTYPE html>
